@@ -10,13 +10,13 @@ import "../channels/channel.dart" show Channel;
 @JS()
 abstract class AuthOptions {
   external Map<String, dynamic> get params;
-  external set params(Map<String, dynamic> v);
+  external set params(dynamic v);
   external Map<String, dynamic> get headers;
-  external set headers(Map<String, dynamic> v);
+  external set headers(dynamic v);
 
   external factory AuthOptions({
-    Map<String, dynamic> params,
-    Map<String, dynamic> headers,
+    dynamic params,
+    dynamic headers,
   });
 
   factory AuthOptions.fromJson(dynamic json) {
