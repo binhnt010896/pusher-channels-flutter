@@ -256,7 +256,7 @@ class PusherChannelsFlutterWeb {
       options.authEndpoint = call.arguments['authEndpoint'];
     }
     if (call.arguments['authParams'] != null) {
-      options.auth = call.arguments['authParams'];
+      options.auth = AuthOptions.fromJson(call.arguments['authParams']);
     }
     if (call.arguments['logToConsole'] != null) {
       Pusher.logToConsole = call.arguments['logToConsole'];
