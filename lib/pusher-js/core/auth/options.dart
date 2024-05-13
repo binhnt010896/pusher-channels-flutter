@@ -18,6 +18,13 @@ abstract class AuthOptions {
     Map<String, dynamic> params,
     Map<String, dynamic> headers,
   });
+
+  factory AuthOptions.fromJson(Map<String, dynamic> json) {
+    return AuthOptions(
+      headers: json['headers'] ?? {},
+      params: json['params'] ?? {},
+    );
+  }
 }
 
 extension AuthOptionsExt on AuthOptions {
