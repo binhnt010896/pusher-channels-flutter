@@ -1,7 +1,7 @@
 @JS()
 library core.options;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "auth/options.dart" show AuthOptions, AuthorizerGenerator;
 
 @anonymous

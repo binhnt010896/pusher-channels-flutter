@@ -3,7 +3,7 @@
 @JS()
 library runtimes.web.net_info;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../../core/events/dispatcher.dart" show Dispatcher;
 import "../../core/reachability.dart" show Reachability;
 

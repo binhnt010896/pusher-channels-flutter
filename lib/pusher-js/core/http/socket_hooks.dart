@@ -3,7 +3,7 @@
 @JS()
 library core.http.socket_hooks;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "url_location.dart" show URLLocation;
 
 @anonymous

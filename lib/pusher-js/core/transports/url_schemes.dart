@@ -1,7 +1,7 @@
 @JS()
 library core.transports.url_schemes;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "url_scheme.dart" show URLSchemeParams, URLScheme;
 
 @JS()

@@ -1,7 +1,7 @@
 @JS()
 library core.strategies.best_connected_ever_strategy;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "strategy.dart" show Strategy;
 
 /// Launches all substrategies and emits prioritized connected transports.

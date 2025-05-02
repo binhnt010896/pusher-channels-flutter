@@ -1,7 +1,7 @@
 @JS()
 library runtimes.web.timeline.jsonp_timeline;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @JS()
 external get getAgent;

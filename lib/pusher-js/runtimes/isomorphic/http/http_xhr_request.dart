@@ -1,7 +1,7 @@
 @JS()
 library runtimes.isomorphic.http.http_xhr_request;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../../../core/http/request_hooks.dart" show RequestHooks;
 
 @JS()

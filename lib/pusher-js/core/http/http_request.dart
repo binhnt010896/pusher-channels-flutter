@@ -3,10 +3,11 @@
 @JS()
 library core.http.http_request;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
+
 import "../events/dispatcher.dart" show Dispatcher;
-import "request_hooks.dart" show RequestHooks;
 import "ajax.dart" show Ajax;
+import "request_hooks.dart" show RequestHooksax;
 
 @JS()
 external get MAX_BUFFER_LENGTH;

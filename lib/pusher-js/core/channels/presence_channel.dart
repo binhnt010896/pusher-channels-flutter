@@ -1,11 +1,12 @@
 @JS()
 library core.channels.presence_channel;
 
-import "package:js/js.dart";
-import "private_channel.dart" show PrivateChannel;
-import "members.dart" show Members;
-import "../pusher.dart" show Pusher;
+import "dart:js/js_wasm.dart";
+
 import "../connection/protocol/message-types.dart" show PusherEvent;
+import "../pusher.dart" show Pusher;
+import "members.dart" show Members;
+import "private_channel.dart" show PrivateChannelnt;
 
 @JS()
 class PresenceChannel extends PrivateChannel {

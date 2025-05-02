@@ -3,7 +3,7 @@
 @JS()
 library core.utils.timers.scheduling;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 typedef num Scheduler(TimedCallback, number);
 typedef void Canceller(number); /*export type Delay = number;*/

@@ -1,7 +1,7 @@
 @JS()
 library core.timeline.timeline_sender;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "timeline.dart" show Timeline;
 
 @anonymous

@@ -1,11 +1,12 @@
 @JS()
 library core.channels.channel;
 
-import "package:js/js.dart";
-import "../events/dispatcher.dart" show Dispatcher;
-import "../pusher.dart" show Pusher;
+import "dart:js/js_wasm.dart";
+
 import "../auth/options.dart" show AuthorizerCallback;
 import "../connection/protocol/message-types.dart" show PusherEvent;
+import "../events/dispatcher.dart" show Dispatcher;
+import "../pusher.dart" show Pushernt;
 
 /// Provides base public channel interface with an event emitter.
 /// Emits:

@@ -1,9 +1,10 @@
 @JS()
 library runtimes.web.dom.jsonp_request;
 
-import "package:js/js.dart";
-import "script_request.dart" show ScriptRequest;
+import "dart:js/js_wasm.dart";
+
 import "script_receiver.dart" show ScriptReceiver;
+import "script_request.dart" show ScriptRequester;
 
 /// Sends data via JSONP.
 /// Data is a key-value map. Its values are JSON-encoded and then passed

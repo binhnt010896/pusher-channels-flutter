@@ -1,7 +1,7 @@
 @JS()
 library core.logger;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @JS()
 class Logger {

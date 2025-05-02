@@ -3,9 +3,10 @@
 @JS()
 library core.pusher_with_encryption;
 
-import "package:js/js.dart";
-import "pusher.dart" show Pusher;
+import "dart:js/js_wasm.dart";
+
 import "options.dart" show Options;
+import "pusher.dart" show Pusherns;
 
 @JS()
 class PusherWithEncryption extends Pusher {

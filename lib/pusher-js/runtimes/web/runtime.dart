@@ -3,7 +3,7 @@
 @JS()
 library runtimes.web.runtime;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "browser.dart" show Browser;
 
 @JS()

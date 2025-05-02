@@ -1,7 +1,7 @@
 @JS()
 library core.socket;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @anonymous
 @JS()

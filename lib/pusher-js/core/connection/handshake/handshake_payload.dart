@@ -1,10 +1,11 @@
 @JS()
 library core.connection.handshake.handshake_payload;
 
-import "package:js/js.dart";
-import "../protocol/action.dart" show Action;
+import "dart:js/js_wasm.dart";
+
 import "../../transports/transport_connection.dart" show TransportConnection;
 import "../connection.dart" show Connection;
+import "../protocol/action.dart" show Anection;
 
 @anonymous
 @JS()

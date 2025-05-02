@@ -3,7 +3,7 @@
 @JS()
 library core.defaults;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @anonymous
 @JS()

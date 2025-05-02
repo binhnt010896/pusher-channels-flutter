@@ -3,7 +3,7 @@
 @JS()
 library runtimes.isomorphic.http.http;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../../../core/http/http_factory.dart" show HTTPFactory;
 
 @JS()

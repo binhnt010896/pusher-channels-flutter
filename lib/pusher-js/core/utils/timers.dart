@@ -1,7 +1,7 @@
 @JS()
 library core.utils.timers;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "timers/abstract_timer.dart" show Timer;
 import "timers/timed_callback.dart" show TimedCallback;
 

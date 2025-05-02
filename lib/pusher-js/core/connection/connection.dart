@@ -3,7 +3,7 @@
 @JS()
 library core.connection.connection;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../events/dispatcher.dart" show Dispatcher;
 import "../socket.dart" show Socket;
 import "../transports/transport_connection.dart" show TransportConnection;

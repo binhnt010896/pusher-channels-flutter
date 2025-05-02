@@ -3,7 +3,7 @@
 @JS()
 library core.timeline.level;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @JS()
 class TimelineLevel {

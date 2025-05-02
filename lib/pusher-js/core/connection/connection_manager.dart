@@ -3,16 +3,17 @@
 @JS()
 library core.connection.connection_manager;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
+
 import "../events/dispatcher.dart" show Dispatcher;
-import "connection_manager_options.dart" show ConnectionManagerOptions;
-import "connection.dart" show Connection;
-import "../timeline/timeline.dart" show Timeline;
 import "../strategies/strategy.dart" show Strategy;
 import "../strategies/strategy_runner.dart" show StrategyRunner;
+import "../timeline/timeline.dart" show Timeline;
 import "../utils/timers/abstract_timer.dart" show Timer;
 import "callbacks.dart"
     show ErrorCallbacks, HandshakeCallbacks, ConnectionCallbacks;
+import "connection.dart" show Connection;
+import "connection_manager_options.dart" show ConnectionManagerOptioncks;
 
 /// Manages connection to Pusher.
 /// Uses a strategy (currently only default), timers and network availability

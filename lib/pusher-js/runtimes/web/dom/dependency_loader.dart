@@ -1,7 +1,7 @@
 @JS()
 library runtimes.web.dom.dependency_loader;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "script_receiver_factory.dart" show ScriptReceiverFactory;
 
 /// Handles loading dependency files.

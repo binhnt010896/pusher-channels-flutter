@@ -3,7 +3,7 @@
 @JS()
 library runtimes.web.dom.script_receiver_factory;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "script_receiver.dart" show ScriptReceiver;
 
 /// Builds receivers for JSONP and Script requests.

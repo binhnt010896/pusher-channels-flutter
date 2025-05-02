@@ -3,7 +3,7 @@
 @JS()
 library runtimes.isomorphic.transports.transports;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../../../core/transports/transports_table.dart" show TransportsTable;
 
 /// WebSocket transport.

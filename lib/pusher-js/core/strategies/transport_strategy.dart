@@ -1,9 +1,10 @@
 @JS()
 library core.strategies.transport_strategy;
 
-import "package:js/js.dart";
-import "strategy.dart" show Strategy;
+import "dart:js/js_wasm.dart";
+
 import "../transports/transport.dart" show Transport;
+import "strategy.dart" show Strategyrt;
 import "strategy_options.dart" show StrategyOptions;
 
 /// Provides a strategy interface for transports.

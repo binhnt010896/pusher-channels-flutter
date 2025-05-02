@@ -1,7 +1,7 @@
 @JS()
 library core.http.http_polling_socket;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "socket_hooks.dart" show SocketHooks;
 
 @JS()

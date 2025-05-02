@@ -3,9 +3,10 @@
 @JS()
 library core.events.callback_registry;
 
-import "package:js/js.dart";
-import "callback_table.dart" show CallbackTable;
+import "dart:js/js_wasm.dart";
+
 import "callback.dart" show Callback;
+import "callback_table.dart" show CallbackTableck;
 
 @JS()
 class CallbackRegistry {

@@ -1,9 +1,10 @@
 @JS()
 library core.transports.transport;
 
-import "package:js/js.dart";
-import "transport_hooks.dart" show TransportHooks;
+import "dart:js/js_wasm.dart";
+
 import "transport_connection.dart" show TransportConnection;
+import "transport_hooks.dart" show TransportHookson;
 
 /// Provides interface for transport connection instantiation.
 /// Takes transport-specific hooks as the only argument, which allow checking

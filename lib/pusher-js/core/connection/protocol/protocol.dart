@@ -3,7 +3,7 @@
 @JS()
 library core.connection.protocol.protocol;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 /// Provides functions for handling Pusher protocol-specific messages.
 @JS()

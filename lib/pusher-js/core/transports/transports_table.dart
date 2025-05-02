@@ -3,7 +3,7 @@
 @JS()
 library core.transports.transports_table;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "transport.dart" show Transport;
 
 @anonymous

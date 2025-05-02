@@ -1,7 +1,7 @@
 @JS()
 library core.transports.ping_delay_options;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @anonymous
 @JS()

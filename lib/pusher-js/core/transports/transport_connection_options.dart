@@ -1,7 +1,7 @@
 @JS()
 library core.transports.transport_connection_options;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../timeline/timeline.dart" show Timeline;
 
 @anonymous

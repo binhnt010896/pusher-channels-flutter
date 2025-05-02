@@ -1,7 +1,7 @@
 @JS()
 library core.utils.url_store;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 /// A place to store help URLs for error messages etc
 @JS()

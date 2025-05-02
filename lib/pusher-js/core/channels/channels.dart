@@ -1,10 +1,11 @@
 @JS()
 library core.channels.channels;
 
-import "package:js/js.dart";
-import "channel_table.dart" show ChannelTable;
+import "dart:js/js_wasm.dart";
+
 import "../pusher.dart" show Pusher;
 import "channel.dart" show Channel;
+import "channel_table.dart" show ChannelTableel;
 
 /// Handles a channel map.
 @JS()

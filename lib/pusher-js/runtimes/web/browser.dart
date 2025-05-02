@@ -5,12 +5,13 @@ library runtimes.web.browser;
 
 import 'dart:html';
 
-import "package:js/js.dart";
-import "../interface.dart" show Runtime;
-import "dom/script_receiver_factory.dart" show ScriptReceiverFactory;
-import "dom/jsonp_request.dart" show JSONPRequest;
-import "dom/script_request.dart" show ScriptRequest;
+import "dart:js/js_wasm.dart";
+
 import "../../core/http/ajax.dart" show Ajax;
+import "../interface.dart" show Runtime;
+import "dom/jsonp_request.dart" show JSONPRequest;
+import "dom/script_receiver_factory.dart" show ScriptReceiverFactory;
+import "dom/script_request.dart" show ScriptRequestax;
 
 @anonymous
 @JS()

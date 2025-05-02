@@ -3,16 +3,17 @@
 @JS()
 library core.pusher;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
+
+import "channels/channel.dart" show Channel;
+import "channels/channels.dart" show Channels;
 //import "../runtimes/interface.dart" show Runtime;
 import "config.dart" show Config;
-import "channels/channels.dart" show Channels;
 // import "events/dispatcher.dart" show Dispatcher;
 //import "timeline/timeline.dart" show Timeline;
 // import "timeline/timeline_sender.dart" show TimelineSender;
 import "connection/connection_manager.dart" show ConnectionManager;
-import "options.dart" show Options;
-import "channels/channel.dart" show Channel;
+import "options.dart" show Optionsel;
 
 @JS()
 class Pusher {

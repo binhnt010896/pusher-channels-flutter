@@ -1,11 +1,12 @@
 @JS()
 library core.transports.assistant_to_the_transport_manager;
 
-import "package:js/js.dart";
-import "transport_manager.dart" show TransportManager;
-import "transport.dart" show Transport;
+import "dart:js/js_wasm.dart";
+
 import "ping_delay_options.dart" show PingDelayOptions;
+import "transport.dart" show Transport;
 import "transport_connection.dart" show TransportConnection;
+import "transport_manager.dart" show TransportManageron;
 
 /// Creates transport connections monitored by a transport manager.
 /// When a transport is closed, it might mean the environment does not support

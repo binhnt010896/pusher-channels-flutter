@@ -1,9 +1,10 @@
 @JS()
 library core.connection.connection_manager_options;
 
-import "package:js/js.dart";
-import "../timeline/timeline.dart" show Timeline;
+import "dart:js/js_wasm.dart";
+
 import "../strategies/strategy.dart" show Strategy;
+import "../timeline/timeline.dart" show Timelinegy;
 
 @anonymous
 @JS()

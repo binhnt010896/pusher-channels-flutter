@@ -1,11 +1,12 @@
 @JS()
 library core.http.http_factory;
 
-import "package:js/js.dart";
-import "http_socket.dart" show HTTPSocket;
-import "socket_hooks.dart" show SocketHooks;
+import "dart:js/js_wasm.dart";
+
 import "http_request.dart" show HTTPRequest;
+import "http_socket.dart" show HTTPSocket;
 import "request_hooks.dart" show RequestHooks;
+import "socket_hooks.dart" show SockeestHooks;
 
 @anonymous
 @JS()

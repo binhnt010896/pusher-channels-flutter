@@ -3,7 +3,7 @@
 @JS()
 library runtimes.isomorphic.runtime;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @JS()
 external dynamic get Isomorphic;

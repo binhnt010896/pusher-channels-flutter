@@ -3,7 +3,7 @@
 @JS()
 library core.auth.options;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../channels/channel.dart" show Channel;
 
 @anonymous

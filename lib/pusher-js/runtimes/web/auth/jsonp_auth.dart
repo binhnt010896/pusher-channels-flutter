@@ -1,7 +1,7 @@
 @JS()
 library runtimes.web.auth.jsonp_auth;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../../../core/auth/auth_transports.dart" show AuthTransport;
 
 @JS()

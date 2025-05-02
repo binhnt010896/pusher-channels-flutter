@@ -3,7 +3,7 @@
 @JS()
 library core.http.request_hooks;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "ajax.dart" show Ajax;
 
 @anonymous

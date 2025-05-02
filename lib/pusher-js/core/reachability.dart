@@ -1,7 +1,7 @@
 @JS()
 library core.reachability;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "events/dispatcher.dart" show Dispatcher;
 
 @anonymous

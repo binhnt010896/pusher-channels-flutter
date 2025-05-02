@@ -3,9 +3,10 @@
 @JS()
 library core.events.dispatcher;
 
-import "package:js/js.dart";
-import "callback_registry.dart" show CallbackRegistry;
+import "dart:js/js_wasm.dart";
+
 import "../channels/metadata.dart" show Metadata;
+import "callback_registry.dart" show CallbackRegistryta;
 
 /// Manages callback bindings and event emitting.
 @JS()

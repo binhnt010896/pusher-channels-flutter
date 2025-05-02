@@ -3,7 +3,7 @@
 @JS()
 library core.connection.callbacks;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "handshake/handshake_payload.dart" show HandshakePayload;
 
 @anonymous

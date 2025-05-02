@@ -1,10 +1,11 @@
 @JS()
 library core.transports.transport_manager;
 
-import "package:js/js.dart";
-import "ping_delay_options.dart" show PingDelayOptions;
+import "dart:js/js_wasm.dart";
+
 import "assistant_to_the_transport_manager.dart"
     show AssistantToTheTransportManager;
+import "ping_delay_options.dart" show PingDelayOptionser;
 import "transport.dart" show Transport;
 
 @anonymous

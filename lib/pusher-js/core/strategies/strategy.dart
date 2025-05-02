@@ -1,7 +1,7 @@
 @JS()
 library core.strategies.strategy;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "strategy_runner.dart" show StrategyRunner;
 
 @anonymous

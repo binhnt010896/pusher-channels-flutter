@@ -3,7 +3,7 @@
 @JS()
 library core.connection.handshake;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "../transports/transport_connection.dart" show TransportConnection;
 
 /// Handles Pusher protocol handshakes for transports.

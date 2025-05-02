@@ -1,10 +1,11 @@
 @JS()
 library core.auth.pusher_authorizer;
 
-import "package:js/js.dart";
-import "options.dart" show Authorizer, AuthorizerOptions, AuthOptions;
-import "auth_transports.dart" show AuthTransport;
+import "dart:js/js_wasm.dart";
+
 import "../channels/channel.dart" show Channel;
+import "auth_transports.dart" show AuthTransport;
+import "options.dart" show Authorizer, AuthorizerOptions, AuthOptionsel;
 
 @JS()
 abstract class PusherAuthorizer implements Authorizer {

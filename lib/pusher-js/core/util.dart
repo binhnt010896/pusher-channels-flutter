@@ -3,7 +3,7 @@
 @JS()
 library core.util;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 @JS()
 external get Util;

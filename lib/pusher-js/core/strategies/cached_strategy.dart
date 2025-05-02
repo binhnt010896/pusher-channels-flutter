@@ -1,9 +1,10 @@
 @JS()
 library core.strategies.cached_strategy;
 
-import "package:js/js.dart";
-import "strategy.dart" show Strategy;
+import "dart:js/js_wasm.dart";
+
 import "../timeline/timeline.dart" show Timeline;
+import "strategy.dart" show Strategyne;
 import "strategy_options.dart" show StrategyOptions;
 import "transport_strategy.dart" show TransportStrategy;
 

@@ -3,11 +3,12 @@
 @JS()
 library http_socket;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
+
 import "../socket.dart" show Socket;
-import "socket_hooks.dart" show SocketHooks;
-import "url_location.dart" show URLLocation;
 import "http_request.dart" show HTTPRequest;
+import "socket_hooks.dart" show SocketHooks;
+import "url_location.dart" show URLLocationst;
 
 @JS()
 class State {

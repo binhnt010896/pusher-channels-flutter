@@ -1,12 +1,14 @@
 @JS()
 library core.channels.encrypted_channel;
 
-import "package:js/js.dart";
 import "dart:typed_data";
-import "private_channel.dart" show PrivateChannel;
-import "../pusher.dart" show Pusher;
+
+import "dart:js/js_wasm.dart";
+
 import "../auth/options.dart" show AuthorizerCallback;
 import "../connection/protocol/message-types.dart" show PusherEvent;
+import "../pusher.dart" show Pusher;
+import "private_channel.dart" show PrivateChannelnt;
 
 /// Extends private channels to provide encrypted channel interface.
 @JS()

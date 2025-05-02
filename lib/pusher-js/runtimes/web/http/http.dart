@@ -1,5 +1,5 @@
 @JS()
 library runtimes.web.http.http;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 /* WARNING: export assignment not yet supported. */

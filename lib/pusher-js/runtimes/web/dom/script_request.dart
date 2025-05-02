@@ -1,7 +1,7 @@
 @JS()
 library runtimes.web.dom.script_request;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 import "script_receiver.dart" show ScriptReceiver;
 
 /// Sends a generic HTTP GET request using a script tag.

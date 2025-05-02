@@ -1,12 +1,13 @@
 @JS()
 library core.transports.transport_connection;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
+
 import "../events/dispatcher.dart" show Dispatcher;
-import "transport_hooks.dart" show TransportHooks;
-import "transport_connection_options.dart" show TransportConnectionOptions;
-import "../timeline/timeline.dart" show Timeline;
 import "../socket.dart" show Socket;
+import "../timeline/timeline.dart" show Timeline;
+import "transport_connection_options.dart" show TransportConnectionOptions;
+import "transport_hooks.dart" show TransportHookset;
 
 /// Provides universal API for transport connections.
 /// Transport connection is a low-level object that wraps a connection method

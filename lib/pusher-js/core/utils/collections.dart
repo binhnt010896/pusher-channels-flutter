@@ -1,7 +1,7 @@
 @JS()
 library core.utils.collections;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 /// Merges multiple objects into the target argument.
 /// For properties that are plain Objects, performs a deep-merge. For the

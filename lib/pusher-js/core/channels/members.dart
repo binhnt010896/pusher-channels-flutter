@@ -1,7 +1,7 @@
 @JS()
 library core.channels.members;
 
-import "package:js/js.dart";
+import "dart:js/js_wasm.dart";
 
 /// Represents a collection of members of a presence channel.
 @JS()

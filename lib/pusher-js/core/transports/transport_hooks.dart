@@ -1,9 +1,10 @@
 @JS()
 library core.transports.transport_hooks;
 
-import "package:js/js.dart";
-import "url_scheme.dart" show URLScheme;
+import "dart:js/js_wasm.dart";
+
 import "../socket.dart" show Socket;
+import "url_scheme.dart" show URLSchemeet;
 
 @anonymous
 @JS()
